@@ -1,7 +1,6 @@
 import lxml
 from lxml import etree
 from lxml.etree import Element, SubElement
-#from xml.etree.ElementTree import Element, SubElement
 import os
 import tkinter as tk
 from tkinter import filedialog
