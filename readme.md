@@ -19,7 +19,7 @@ This project is aimed at developing a TCX file converter for use with the iFIT S
 1. Download your TCX file from iFIT. (Make a Copy if you would like to compare it to the final output.)
 2. Run the executable or included Python script.
 3. Use the File Finder to select your TCX file.
-4. Select either Biking or Running.th the application.
+4. Select either Biking or Running.
 5. Your TCX file is edited in place and reformatted.
 6. Upload your new TCX file to Garmin Connect and be amazed.
 
