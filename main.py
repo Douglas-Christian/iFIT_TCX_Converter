@@ -5,8 +5,19 @@ import os
 import tkinter as tk
 from tkinter import filedialog
 
+
+## Removes leading spaces from the TCX file
+def clean_file(file_path):
+    with open(file_path, 'r') as f:
+        content = f.read()
+    cleaned_content = content.lstrip()
+    with open(file_path, 'w') as f:
+        f.write(cleaned_content)
+
+
 ## Parse the iFIT TCX file into an XML tree
 def parse_xml(file_path):
+    clean_file(file_path)
     return etree.parse(file_path)
 
 ## Reformat the iFIT TCX file to be more readable
